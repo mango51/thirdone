@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="kr">
+<title> HYOM HYOM 횸횸 </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    .half img {
+        margin-bottom: -6px;
+        margin-top: 16px;
+        opacity: 0.8;
+        cursor: pointer
+    }
+
+    .half img:hover {
+        opacity: 1
+    }
+
+    a:link {
+        color: navy;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: darkorange;
+    }
+
+    a:visited {
+        color: black;
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 50px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+    @media (max-width: 600px) {
+        #side {
+            display: none;
+        }
+
+        .main {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+</style>
+
+<body>
+
+    <!-- 왼쪽 사이드 메뉴 -->
+    <div id="side">
+        <nav class="sidebar colorname" style="width:180px; font-weight:bold;">
+
+            <div class="bar-block">
+                <a href="#int"> 관심사</a> <br>
+                <a href="#edu"> 공부</a> <br>
+                <a href="#works"> 포트폴리오</a> <br>
+                <a href="#con"> 연락처</a> <br>
+            </div>
+        </nav>
+    </div>
+
+    <!-- 페이지 상단 -->
+    <div class="main" style="margin-left:200px; margin-right:40px;">
+        <h2 class="caption"> HYOM HYOM HOMEPAGE </h2>
+
+        <!-- 관심사 -->
+        <div class="bigbox" style="margin-top:0px;">
+            <h4 class="xlarge"><b> 20180829 강효민 </b></h4> <br>
+            <h1 class="xxlarge colorname" id="int"  style="color:navy"><b> 관심사</b></h1>
+            <hr style="width:40%; border:5px solid black; float: left; clear: both; "> <br>
+        </div>
+
+        <!-- 사진 -->
+        <div class="imgpadding">
+            <div class="half">
+                <img src="./barebears.jpg" style="width:100%" alt="위베어베어스">
+                <img src="./kart.png" style="width:100%" alt="카트라이더">
+                <img src="./spain.png" style="width:100%" alt="스페인">
+            </div>
+
+            <div class="half">
+                <img src="./hamstew.jpg" style="width:100%" alt="부대찌개">
+                <img src="./smoothie.jpg" style="width:100%" alt="망고스무디">
+                <img src="./gookbab.jpg" style="width:100%" alt="순대국밥">
+            </div>
+        </div>
+
+        <!-- 공부 -->
+        <div class="bigbox" id="edu" style="margin-top:75px">
+            <h1 class="xxlarge colorname"  style="color:navy"><b> 공부</b></h1>
+            <hr style="width:40%; border:5px solid black; float: left; clear: both; "> <br>
+            <p> 지난 2년간 열심히 공부하였습니다!!! </p>
+            <p> 1학년 : 포토샵, 일러스트 공부 후 자격증 취득
+            </p>
+            <p> 2학년 : 토익, 코딩 공부, 스페인어 </p>
+            <p> 3학년 : 한국사, 코딩 공부 </p>
+        </div>
+
+        <!-- 포트폴리오 -->
+        <div class="bigbox" id="works" style="margin-top:75px">
+            <h1 class="xxlarge"  style="color:navy"><b> 포트폴리오</b></h1>
+            <hr style="width:40%; border:5px solid black; float: left; clear: both; "> <br>
+            <p> 지난 2년간 열심히 살았습니다!!! </p>
+            <p> 1학년 : 50일간의 유럽여행, 성신버디...
+            </p>
+            <h6><details open> <summary> 궁금하시면... </summary>
+                <img src = "travel.jpg" width= 200>
+                <img src = "buddychina.jpg" width= 200>
+                <br>
+                중국인 교환학생과 친해져서 아직도 연락합니다! 
+                <br> 그리고 유럽여행가서 귀여운 곰돌이도 만났어요 ^_^ 
+             </details>
+             </h6> <br>
+            <p> 2학년 : 성신버디, 교육봉사, DSC Sungshin... </p>
+            <h6><details open> <summary> 구체적으로... </summary>
+                <img src = "buddyus.jpg" width= 200>
+                <img src = "camp.jpg" width= 200>
+                <img src = "dsc.jpg" width= 200>
+                <br>미국인 교환학생 친구가 다시 한국으로 온대요! 대학원생으로!
+                <br> 교육봉사는 힘들었어요... 하지만 재밌었습니다! 
+                <br> DSC Sungshin으로 많은 경험을 쌓을 수 있었어요..
+             </details>
+             </h6> <br> 
+            <p> 3학년 : 오라클 멘토멘티, 봉사단... </p>
+            <h6>
+                아직 시작한지 얼마되지 않았습니다 ㅠㅠ
+            </h6>
+        </div>
+
+
+
+        <!-- 연락처 -->
+        <div class="bigbox" id="con" style="margin-top:75px">
+            <h1 class="xxlarge" style="color:navy"><b> 연락처</b></h1>
+            <hr style="width:40%; border:5px solid black; float: left; clear: both; "> <br>
+            <ul class="contact-info">
+                <li>+82 010-4041-0159</li>
+                <li><a href="mailto:hotpenguin0501@gmail.com">hotpenguin0501@gmail.com</a></li> <br>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+
+
+
+                <footer>
+                    <p class="credit">
+                        Copyright &copy; All rights reserved | by 강효민 </p>
+
+                </footer>
+
+
+
+
+</body>
+
+</html>
